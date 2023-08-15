@@ -231,6 +231,7 @@ button {
     }
     h1 {
         font-size: 1.4em;
+        padding-top: 4px;
     }
     #nav-btn {
         position: absolute;
