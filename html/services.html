@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Services</title>
+        <meta name="description">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="../index.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="nav">
+                <h1 class="frty-perc center">Mobile RV Works</h1>
+                <div class="sxty-perc">
+                    <ul class="flex undec hidden">
+                        <a href="../index.html#home"><li>Home</li></a>
+                        <a href="#home"><li>Services</li></a>
+                        <a href="./testimonials.html"><li>Testimonials</li></a>
+                        <a href="#about-us"><li>About Us</li></a>
+                    </ul>
+                </div>
+                <a href="javascript:void(0);" id="nav-btn" onclick="navClick()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div id="hidden-nav">
+                <div class="full-cntr">
+                    <ul id="hidden-list" class="flex undec unhidden">
+                        <a href="../index.html#home" onclick="navClick()"><li>Home</li></a>
+                        <a href="#home"><li>Services</li></a>
+                        <a href="./testimonials.html"><li>Testimonials</li></a>
+                        <a href="#about-us" onclick="navClick()"><li>About Us</li></a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="home" class="main-div">
+                <p class="md-text">This is where you can include more information about your business, such as services and prices.</p>
+            </div>
+            <div id="about-us" class="main-div">
+                <h3>About Us</h3>
+                    <div class="flex bot-pad">
+                        <p>Location:</p>
+                        <p>Phone:</p>
+                        <p>Email:</p>
+                    </div>
+                <button class="md-text">Get in contact with us!</button>
+            </div>
+        </main>
+    </body>
+</html>

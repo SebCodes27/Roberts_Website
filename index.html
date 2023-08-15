@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Robert's RV Business</title>
+        <meta name="description">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="./index.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="nav">
+                <h1 class="frty-perc center">Mobile RV Works</h1>
+                <div class="sxty-perc">
+                    <ul class="flex undec hidden">
+                        <a href="#home"><li>Home</li></a>
+                        <a href="./html/services.html"><li>Services</li></a>
+                        <a href="./html/testimonials.html"><li>Testimonials</li></a>
+                        <a href="#about-us"><li>About Us</li></a>
+                    </ul>
+                </div>
+                <a href="javascript:void(0);" id="nav-btn" onclick="navClick()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div id="hidden-nav">
+                <div class="full-cntr">
+                    <ul id="hidden-list" class="flex undec unhidden">
+                        <a href="#home" onclick="navClick()"><li>Home</li></a>
+                        <a href="./html/services.html"><li>Services</li></a>
+                        <a href="./html/testimonials.html"><li>Testimonials</li></a>
+                        <a href="#about-us" onclick="navClick()"><li>About Us</li></a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="home" class="main-div flex block-alt">
+                <div class="sxty-perc">
+                    <p class="lg-text center">Mobile RV Works</p>
+                    <div class="flex">
+                        <img class="brdr-green sample-img">
+                    </div>
+                </div>
+                <div class="ffty-perc">
+                    <p id="description" class="md-text">-main values...<br/><br/><br/>-qualities...<br/><br/><br/>-and more</p>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div id="more-info" class="main-div">
+                <h3>We are here for <em>you</em>! More about our company...</h3>
+                <div class="flex">
+                    <p class="ffty-perc block-alt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet venenatis urna cursus eget nunc scelerisque. Egestas purus viverra accumsan in nisl nisi scelerisque eu. Congue nisi vitae suscipit tellus mauris a. Vitae et leo duis ut diam quam. Venenatis a condimentum vitae sapien pellentesque habitant morbi.</p>
+                    <p class="ffty-perc block-alt">Neque sodales ut etiam sit amet nisl purus in mollis. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Amet dictum sit amet justo donec enim. Tortor condimentum lacinia quis vel eros donec ac odio. A scelerisque purus semper eget duis. Lacus sed viverra tellus in hac habitasse platea dictumst vestibulum.</p>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div id="test-link" class="main-div">
+                <h3>Satisfied Customer Reviews</h3>
+                <div class="flex block-alt">
+                    <div class="ffty-perc flex pad-alt">
+                        <img class="frty-perc brdr-green brdr-alt">
+                        <p class="sxty-perc">John Doe<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet venenatis urna cursus eget nunc scelerisque. Egestas purus viverra accumsan in nisl nisi scelerisque eu.</p>
+                    </div>
+                    <div class="ffty-perc flex pad-alt">
+                        <img class="frty-perc brdr-green brdr-alt">
+                        <p class="sxty-perc">Susan Holly<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet venenatis urna cursus eget nunc scelerisque. Egestas purus viverra accumsan in nisl nisi scelerisque eu.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div id="about-us" class="main-div">
+                <h3>About Us</h3>
+                <div class="flex bot-pad">
+                    <p>Location:</p>
+                    <p>Phone:</p>
+                    <p>Email:</p>
+                </div>
+                <button class="md-text">Get in contact with us!</button>
+            </div>
+        </main>
+    </body>
+</html>
